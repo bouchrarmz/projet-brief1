@@ -546,26 +546,44 @@ button:focus-visible {
   color: #94A3B8;
 }
 .contact {
-
-text-align: center;
-border: #C2410C;
 justify-content: center;
-
+min-height: 450px;
+display: flex;
+align-items: center;
+padding: 50px 20px;
+background-color: #eef7ff;
 }
 .btn{
     
-border-radius: 40px;
+border-radius: 25px;
 background-color: #C2410C;
-text-align: center;
-font-size: large;
-padding: 20px;
+border: none;
+padding: 14px;
+margin-bottom:15px ;
+width: 100% ;
+outline: none;
+
+
 
 }
-.p1{
- 
-
+.contactContr textarea{
+    height: 100px;
+    resize: none;
 
 }
+.contactContr input , .contactContr textarea{
+width: 100%;
+border: none;
+outline: none;
+border-radius: 25px;
+padding: 14px 18px ;
+margin-bottom: 15px;
+background-color: #e8f4ff;
+}
+.contactContr p{
 
+margin-bottom: 5px;
+color: #333;
+}
 
  
