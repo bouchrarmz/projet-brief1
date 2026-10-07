@@ -545,3 +545,27 @@ button:focus-visible {
   font-size: 13px;
   color: #94A3B8;
 }
+.contact {
+
+text-align: center;
+border: #C2410C;
+justify-content: center;
+
+}
+.btn{
+    
+border-radius: 40px;
+background-color: #C2410C;
+text-align: center;
+font-size: large;
+padding: 20px;
+
+}
+.p1{
+ 
+
+
+}
+
+
+ 
