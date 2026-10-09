@@ -180,7 +180,7 @@ button:focus-visible {
 }
 
 .logo img {
-    width: 130px;
+    width: 115px;
     height: auto;
 }
 
@@ -596,12 +596,25 @@ a :hover {
 }
 
 .contact-info {
-    display: flex;
-    justify-content: center;
-    margin-top: 35px;
-    padding-top: 20px;
-    border-top: 1px solid #ddd;
-    word-spacing: 0.3em;
+  max-width: 600px;
+  margin: 20px auto 40px;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(15, 27, 45, 0.08);
+}
+
+.contact-info h4 {
+  color: #0F1B2D;
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.contact-info p {
+  color: #FF6B2C;
+  font-size: 16px;
+  margin-bottom: 16px;
 }
 
 .menu-burger {
@@ -612,7 +625,7 @@ a :hover {
     display: none;
 }
 
-/* pc*/
+/* mn pc*/
 
 @media (min-width: 769px) {
 
@@ -704,7 +717,7 @@ a :hover {
     gap: 12px;
   }
 
-  /* Les cartes sur téléphone */
+  
   .cartes {
     display: grid;
     grid-template-columns: 1fr;
