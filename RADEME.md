@@ -20,7 +20,9 @@
  style.css : mise en forme des pages.
 
   img/ : dossier contenant les images et le logo.
-  
+# Objectif :
+
+Ce projet a pour objectif de pratiquer HTML et CSS, de créer un site web structuré et d'apprendre à adapter son affichage aux différentes tailles d'écran.
 
 
 
